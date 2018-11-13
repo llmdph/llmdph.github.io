@@ -1,0 +1,223 @@
+body{
+	background: url(http://hbfile.b0.upaiyun.com/img/home/banner/1dc63d4edec4996871a44f5d7e8c9cde361d53989b246);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+        }
+    .bdh{
+
+        min-height: 40px;
+         min-width:1200px;
+
+    	position: fixed;
+    	left: 0px;
+        right: 0px;
+        top: 9px;
+
+    }
+    .lr{
+
+    	position: absolute;
+        left:10%;   
+        right: 10%; 	
+display:inline-block;
+
+
+
+
+    }  
+
+    .left{ 
+
+    }
+
+    .right{         
+
+
+float: right;
+
+    }
+
+
+    #logo{
+    	background:url(http://huaban.com/img/logo_wt.svg);
+        float: left;
+        margin-right: 20px;
+        width: 80px;
+        height: 28px;
+    }
+
+    #upbottom{
+    	border-bottom: 1px solid white;
+    	line-height: 32px;
+    	position: relative;
+        float: left;
+        margin-right: 25px;
+        color:white;
+        font-size:14px;
+        text-decoration: none;
+    }
+    
+    .hh{ 
+
+    	line-height: 32px;
+    	position: relative;
+        float: left;
+        margin-right: 25px;
+        color:white;
+        font-size:14px;
+        text-decoration: none;
+
+
+    }
+    .hh:hover{
+        border-bottom: 1px solid white;
+
+
+
+
+}  
+.san{  
+
+}
+
+
+    .san_bb{
+    	padding-right: 20px;
+    	border-right:1px  solid white;
+        line-height: 32px;
+    	position: relative;
+        float: left;
+margin-right: 25px;
+        color:white;
+        font-size:30px;
+        text-decoration: none;
+
+    }
+    .san_xlb{
+       
+        display: none;
+       position: relative;
+        float: left;
+margin-right: 0px;
+transform: translate(-35px );
+padding-right:0px;
+
+        margin-right: 0px;
+        margin-top: 32px;
+
+        font-size:20px;
+        font-color:white;
+        text-decoration: none;
+
+    }
+
+    .san:hover .san_xlb{
+        display: block ;
+
+
+    }
+    .san:hover .san_bb{
+        margin-right: -15px;
+    }
+.san_xl{
+    color:white;
+}
+.san_xl:hover{
+    color:skyblue;
+}
+
+
+
+    .denglu{
+            background:rgba(255,255,255,0);
+            color:white;
+            padding: 0px 15px;
+            height: 32px;
+            line-height: 32px;
+            border: 1px solid white;
+            padding: 5px 15px 5px 15px;
+        	border-radius:3px; 
+        	 margin-right:8px;
+        	 font-size: 14px;
+        	 text-decoration: none;
+    }
+    .denglu:hover{
+        background-color: white;
+        color:black;
+
+    }
+
+    .zhuce{
+    	background-color:#ec414d;
+    	color:white;
+        padding:0px 15px;
+        height: 32px;
+        line-height: 32px;
+        padding: 5px 15px 5px 15px;
+        border: 1px ;
+        border-radius:3px; 
+       
+        font-size: 14px;
+        
+
+}
+    .zhuce:hover{
+        background-color: red;
+    }
+
+    .center{
+    	text-align:center;
+    	color:white;
+    	position: absolute;
+        top: 35%;
+        left:50%;
+         transform: translate(-50%,-50%);
+
+    }
+
+    .box{
+        width: 560px;
+        height: 35px;
+        position: relative;
+
+    }
+
+    .box #input{
+    	    margin-left: 0px;
+    	    border-radius:3px;
+            border-style:solid;
+        	height: 35px;width:540px;
+            border: 1px ;
+            padding-left: 20px;
+
+            background-color: white;
+
+            
+
+        	
+    }
+    .box #slogo{
+        background: url(http://huaban.com/img/new_index/icon_search.svg) no-repeat;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        right: 5px;
+        top:8px;
+
+
+    }
+
+    .xiamian{
+    	color:white;
+    	text-decoration: none;
+    }
+
+    .meiyong{
+
+    	font-size: 14px;
+    	color:#ffffffb8;
+
+    }
+
