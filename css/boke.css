@@ -1,0 +1,74 @@
+ body{
+ 	font-family: "Microsoft Yahei";
+ 	font-weight:bold;
+ 	background: url(http://img.ivsky.com/img/tupian/pic/201805/21/jingyingtitoudeboliqiu.jpg);
+	background-size: cover;
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+
+ }
+ .all{
+ 	position: absolute;
+    top: 35%;
+    left: 50%; 
+    transform: translate(-50%,-50%)
+ }
+@keyframes h1{
+ 	form{font-size: 0px;}
+	to{ font-size: 70px;}
+
+ }
+ @-moz-keyframes h1{
+ 	form{font-size: 0px;}
+	to{ font-size: 70px;}
+
+ }
+ @-webkit-keyframes h1{
+ 	form{font-size: 0px;}
+	to{ font-size: 70px;}
+
+
+ }
+ .h1{
+ 	-moz-animation:h1 2s; /* Firefox */
+	-webkit-animation:h1 2s;
+	-webkit-animation-fill-mode:forwards;/* Safari and Chrome */
+	-o-animation:h1 2s; /* Opera */
+
+ }
+
+
+
+
+
+ @keyframes llmdph{
+ 	form{font-size: 0px;}
+	to{ font-size: 40px;}
+
+ }
+ @-moz-keyframes llmdph{
+ 	form{font-size: 0px;}
+	to{ font-size: 40px;}
+
+ }
+ @-webkit-keyframes llmdph{
+ 	form{font-size: 0px;}
+	to{ font-size: 40px;}
+
+
+ }
+
+.llmdph{
+
+
+	color:bule;
+	text-decoration: none;
+	-moz-animation:llmdph 5s; /* Firefox */
+	-webkit-animation:llmdph 0.5s;
+	-webkit-animation-fill-mode:forwards;/* Safari and Chrome */
+	-o-animation:llmdph 1.5s; /* Opera */
+
+}
+.llmdph:hover{
+	color:skyblue;
+}
