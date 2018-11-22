@@ -1,0 +1,262 @@
+body{
+	background: url(http://img.ivsky.com/img/tupian/pic/201711/29/dengshan_renwu-001.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+}
+ 
+.shang{
+
+    z-index: 1;
+	height: 100px;
+	width:100%;
+	height: 100px;
+	background-color: #ffefef;
+	position: fixed;
+	top: 0;
+	left: 0px;
+	right: 0px;min-width:1447px;
+
+	display: inline-block;
+	float: top;
+
+}
+.logox{
+	background: url(../picture/logo.jpg);
+    float: left;
+    margin-left:40px;
+    margin-top: 10px;
+    width: 90px;
+    height:80px;
+}
+.center{
+	position: absolute;
+	top: 52%;
+    left:50%;
+    transform: translate(-50%,-50%);
+display: inline-block;
+
+}
+
+.navigation{
+	font-size: 20px;
+	color: #6b5f5f;
+	margin:70px;
+	padding-bottom: 5px;
+	text-decoration: none;
+
+}
+.navigation_1{
+	font-size: 20px;
+	color: #6b5f5f;
+	margin:70px;
+	margin-left: 0px;
+	padding-bottom: 5px;
+	text-decoration: none;
+	border-bottom: 1.9px solid  #6b5f5f;
+
+}
+.xiala_1{
+	font-size: 20px;
+	color: #6b5f5f;
+	margin:70px;
+	margin-right: 0px;
+	padding-bottom: 5px;
+	text-decoration: none;
+}
+
+ @keyframes xiala{
+
+	to{  }
+
+ }
+ @-moz-keyframes  xiala{
+
+	to{  }
+
+ }
+ @-webkit-keyframes  xiala{
+
+	to{  }
+
+
+ }
+
+
+.xiala_2{
+
+
+
+        padding-left: 25px;
+        margin: 30px;
+        margin-top: 25px;
+
+    	position: absolute;
+    	top: 0px;
+    	text-align: center;
+
+        font-size:20px;
+
+        display: none;
+        	-moz-animation:xiala 1s; /* Firefox */
+	-webkit-animation:xiala 1s;
+	-webkit-animation-fill-mode:forwards;/* Safari and Chrome */
+	-o-animation:xiala 1s; /* Opera */
+
+xiala
+
+}
+
+.xiala:hover .xiala_2{
+	display: block;
+}
+.xiala_3{
+	        text-decoration: none;
+	        color:#6b5f5f;
+}
+.xiala_3:hover{
+	color:black;
+
+}
+
+.navigation:hover{
+	border-bottom: 1.9px solid  #6b5f5f;
+
+}
+.picture{
+	width: 100%;
+    position: absolute;
+
+    left: 0px;
+    right: 0px;
+
+	display: inline-block;
+}
+.mid_1{float: left;
+
+width: 25%;height: 800px;background-color:  #0000003b;
+
+}.mid_2{float: left;
+
+width: 25%;height: 800px;background-color: #00000063;
+
+}.mid_3{float: left;
+
+width: 25%;height: 800px;background-color: #0000003b;
+
+}.mid_4{float: left;
+
+width: 25%;height: 800px;background-color:#00000063;
+
+}
+
+.mid_1_1{
+	position: relative;
+	top: 100%;
+    left:50%;
+    transform: translate(-50%,-100%);
+     border-radius:5px; 
+    height:20%;
+	width: 85%;
+    background-color: #00000094;
+    display: none;
+ 	font-family: "Microsoft Yahei";
+padding: 2%;
+	-moz-animation:mid_1_1 1s; /* Firefox */
+	-webkit-animation:mid_1_1 1s;
+	-webkit-animation-fill-mode:forwards;/* Safari and Chrome */
+	-o-animation:mid_1_1 1s; /* Opera */
+	font-size: 20px;
+      color: #ffefef; 
+        
+}
+.mid_2_2{
+	position: relative;
+	top: 100%;
+    left:50%;
+    transform: translate(-50%,-100%);
+    border-radius:5px; 
+    height:20%;
+	width: 85%;
+    background-color: #00000094;
+    display: none;
+ 	font-family: "Microsoft Yahei";
+	-moz-animation:mid_1_1 1s; /* Firefox */
+	-webkit-animation:mid_1_1 1s;
+	-webkit-animation-fill-mode:forwards;/* Safari and Chrome */
+	-o-animation:mid_1_1 1s; /* Opera */
+
+
+font-size: 20px;
+      color: #ffefef;padding: 2%;
+
+}
+.mid_3_3{
+	position: relative;
+	top: 100%;
+    left:50%;
+    transform: translate(-50%,-100%);
+    border-radius:5px; 
+    height:0%;
+	width: 85%;
+    background-color: #00000094;
+    display: none;
+ 	font-family: "Microsoft Yahei";
+	-moz-animation:mid_1_1 1s; /* Firefox */
+	-webkit-animation:mid_1_1 1s;
+	-webkit-animation-fill-mode:forwards;/* Safari and Chrome */
+	-o-animation:mid_1_1 1s; /* Opera */
+
+font-size: 20px;
+      color: #ffefef; padding: 2%;
+}
+.mid_4_4{
+	position: relative;
+	top: 100%;
+    left:50%;
+    transform: translate(-50%,-100%);
+    border-radius:5px; 
+    height:0%;
+	width: 85%;
+    background-color: #00000094;
+    display: none;
+ 	font-family: "Microsoft Yahei";
+	-moz-animation:mid_1_1 1s; /* Firefox */
+	-webkit-animation:mid_1_1 1s;
+	-webkit-animation-fill-mode:forwards;/* Safari and Chrome */
+	-o-animation:mid_1_1 1s; /* Opera */
+
+font-size: 20px;
+      color: #ffefef; padding: 2%;
+}
+
+.mid_1:hover .mid_1_1{
+	display: block;}
+
+.mid_2:hover .mid_2_2{
+	display: block;}
+
+.mid_3:hover .mid_3_3{
+	display: block;}
+
+.mid_4:hover .mid_4_4{
+	display: block;}
+
+ @keyframes mid_1_1{
+
+	to{ height:30%; }
+
+ }
+ @-moz-keyframes mid_1_1{
+
+	to{ height:30%; }
+
+ }
+ @-webkit-keyframes mid_1_1{
+
+	to{  height:30%;}
+
+
+ }
+
