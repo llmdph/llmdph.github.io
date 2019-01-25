@@ -15,17 +15,17 @@
  }
 @keyframes h1{
  	form{font-size: 0px;}
-	to{ font-size: 90px;}
+	to{ font-size: 85px;}
 
  }
  @-moz-keyframes h1{
  	form{font-size: 0px;}
-	to{ font-size: 90px;}
+	to{ font-size: 85px;}
 
  }
  @-webkit-keyframes h1{
  	form{font-size: 0px;}
-	to{ font-size: 90px;}
+	to{ font-size: 85px;}
 
 
  }
